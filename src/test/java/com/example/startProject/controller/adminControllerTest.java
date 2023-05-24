@@ -13,13 +13,6 @@ import org.springframework.test.web.servlet.MockMvc;
 @WebMvcTest(adminController.class)
 class adminControllerTest {
 
-    @InjectMocks
-    private adminController adminController;
-
-    @Mock
-    private adminService adminservice;
-
-    private MockMvc mvc;
 
     @Test
     void adminhome() {
